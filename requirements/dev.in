@@ -1,0 +1,7 @@
+-r prod.txt
+django-debug-toolbar
+django-extensions
+pip-tools
+Werkzeug
+dj-database-url
+django-heroku
