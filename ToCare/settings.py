@@ -29,7 +29,7 @@ SECRET_KEY = '-n2#=-pg4n*p$c3h@9q%ap-82u*=&w%3z61dr2^!xciv=0o939'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['tocare.lo']
 
 
 # Application definition
