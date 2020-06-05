@@ -10,45 +10,45 @@ chardet==3.0.4            # via requests
 coreapi==2.3.3            # via django-rest-swagger, openapi-codec
 coreschema==0.0.4         # via coreapi
 defusedxml==0.6.0         # via python3-openid
-dj-database-url==0.5.0
+dj-database-url==0.5.0    # via -r base.in, django-heroku
 django-appconf==1.0.3     # via django-compressor
-django-bootstrap3==11.0.0
-django-compressor==2.2
-django-countries==5.3.3
-django-email-confirm-la==2.3.1
-django-heroku==0.3.1
-django-ordered-model==3.1.1
-django-parler==1.9.2
-django-rest-swagger==2.2.0
-django-sass-processor==0.7.3
-django-taggit==1.1.0
-django-wysiwyg==0.8.0
-django==2.2
-djangorestframework==3.9.2
-drf-extensions==0.4.0
+django-bootstrap3==11.0.0  # via -r base.in
+django-compressor==2.2    # via -r base.in
+django-countries==5.3.3   # via -r base.in
+django-email-confirm-la==2.3.1  # via -r base.in
+django-heroku==0.3.1      # via -r base.in
+django-ordered-model==3.1.1  # via -r base.in
+django-parler==1.9.2      # via -r base.in
+django-rest-swagger==2.2.0  # via -r base.in
+django-sass-processor==0.7.3  # via -r base.in
+django-taggit==1.1.0      # via -r base.in
+django-wysiwyg==0.8.0     # via -r base.in
+django==2.2.13            # via -r base.in, django-appconf, django-database-email, django-email-confirm-la, django-heroku, django-taggit
+djangorestframework==3.9.2  # via -r base.in, django-rest-swagger, drf-extensions
+drf-extensions==0.4.0     # via -r base.in
 idna==2.8                 # via requests
 itypes==1.1.0             # via coreapi
 jinja2==2.10.1            # via coreschema
-libsass==0.18.0
+libsass==0.18.0           # via -r base.in
 markupsafe==1.1.1         # via jinja2
 oauthlib==3.0.1           # via python-social-auth, requests-oauthlib
-onesignal-sdk==1.0.0
+onesignal-sdk==1.0.0      # via -r base.in
 openapi-codec==1.3.2      # via django-rest-swagger
-pillow==6.0.0
-psycopg2==2.8.2
+pillow==6.0.0             # via -r base.in
+psycopg2==2.8.2           # via -r base.in, django-heroku
 pyjwt==1.7.1              # via python-social-auth
-python-social-auth==0.2.13
+python-social-auth==0.2.13  # via -r base.in
 python3-openid==3.1.0     # via python-social-auth
-pytz==2019.1
-raven==6.10.0
+pytz==2019.1              # via -r base.in, django
+raven==6.10.0             # via -r base.in
 rcssmin==1.0.6            # via django-compressor
 requests-oauthlib==1.2.0  # via python-social-auth
-requests==2.21.0
+requests==2.21.0          # via -r base.in, coreapi, onesignal-sdk, python-social-auth, requests-oauthlib
 rjsmin==1.0.12            # via django-compressor
-sass==2.3
+sass==2.3                 # via -r base.in
 simplejson==3.16.0        # via django-rest-swagger
-six==1.12.0
-sorl-thumbnail==12.5.0
+six==1.12.0               # via -r base.in, django-appconf, libsass, python-social-auth
+sorl-thumbnail==12.5.0    # via -r base.in
 sqlparse==0.3.0           # via django
 uritemplate==3.0.0        # via coreapi
 urllib3==1.24.2           # via requests
